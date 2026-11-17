@@ -5,4 +5,108 @@
   font-display: swap;
 }
 
-/* Étape CSS : écris ici les règles de la carte et de ses éléments. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.carte {
+  width: 560px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.entete {
+  background-color: #7ee3dc;
+  border-bottom: 2px solid #000000;
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ecole {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+.icone-cle {
+  width: 80px;
+  height: 80px;
+  background-color: #fde047;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.contenu {
+  padding: 35px;
+}
+
+.ligne-titre {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.ligne-titre span {
+  color: #666666;
+}
+
+.zone-mot-de-passe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  padding: 8px 8px 8px 16px;
+  margin-bottom: 20px;
+}
+
+.texte-attente {
+  color: #666666;
+  font-size: 18px;
+}
+
+.bouton-copier {
+  background-color: #f4f4f5;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bouton-generer {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
